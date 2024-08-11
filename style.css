@@ -1,0 +1,12 @@
+#searchDiv {
+  max-height: 250px !important; /* Listenin maksimum yüksekliği */
+  overflow-y: auto; /* Dikey kaydırma ekle */
+  padding: 0;
+  margin: 0;
+}
+.list {
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
+}
