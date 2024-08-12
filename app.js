@@ -5,7 +5,6 @@ const countries = async () => {
 
     const searchInput = document.querySelector("#searchInput");
     const searchList = document.querySelector("#searchDiv");
-    const countryInfo = document.querySelector("#countryInfo");
 
     //*ülke isimlerini bir liste içersine alıyoruz
     const countryNames = data.map((country) => country.name.common);
@@ -88,10 +87,6 @@ const countries = async () => {
             </li>
             </ul>
             </div>
-          
-          
-          
-          
           `;
         });
       });
@@ -100,5 +95,4 @@ const countries = async () => {
     console.log("hata", err);
   }
 };
-
 countries();
